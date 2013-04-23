@@ -1,0 +1,37 @@
+<h1>Listing week1s</h1>
+
+<table>
+  <tr>
+    <th>Mon1</th>
+    <th>Tue1</th>
+    <th>Wed1</th>
+    <th>Thu1</th>
+    <th>Fri1</th>
+    <th>Sat1</th>
+    <th>Sun1</th>
+    <th>Di1</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @week1s.each do |week1| %>
+  <tr>
+    <td><%= week1.mon1 %></td>
+    <td><%= week1.tue1 %></td>
+    <td><%= week1.wed1 %></td>
+    <td><%= week1.thu1 %></td>
+    <td><%= week1.fri1 %></td>
+    <td><%= week1.sat1 %></td>
+    <td><%= week1.sun1 %></td>
+    <td><%= week1.di1 %></td>
+    <td><%= link_to 'Show', week1 %></td>
+    <td><%= link_to 'Edit', edit_week1_path(week1) %></td>
+    <td><%= link_to 'Destroy', week1, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Week1', new_week1_path %>
