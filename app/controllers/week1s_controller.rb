@@ -1,3 +1,5 @@
+# encoding = UTF-8
+
 #require 'rubygems'
 ##  require 'iconv'
 #require "roo"
@@ -57,6 +59,31 @@ class Week1sController < ApplicationController
 
 
     @week1s = Week1.all
+
+    #@week1s[0].mon1='语文'
+    #@week1s[1].mon1='shuxue'
+
+
+    1.upto(8) do |line|
+      @week1s[line].mon1 = s.cell(line,'A')
+      @week1s[line].tue1 = s.cell(line,'B')
+      @week1s[line].wed1 = s.cell(line,'C')
+      @week1s[line].thu1 = s.cell(line,'D')
+      @week1s[line].fri1 = s.cell(line,'E')
+
+     # puts "#{roll1} --#{roll2} --#{roll3}  ---#{roll4} ---#{roll5} ---"
+    end
+
+
+    9.upto(Week1.all.count()-1) do |line|
+      @week1s[line].mon1 = "=========="
+      @week1s[line].tue1 = "=========="
+      @week1s[line].wed1 = "=========="
+      @week1s[line].thu1 = "=========="
+      @week1s[line].fri1 = "=========="
+
+      # puts "#{roll1} --#{roll2} --#{roll3}  ---#{roll4} ---#{roll5} ---"
+    end
 
     respond_to do |format|
       format.html # index.html.erb

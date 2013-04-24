@@ -7,8 +7,9 @@
     <file path="/test1.rb" changelist="bdfc6f69-e5d9-4957-a761-75a0f67ecd38" time="1366723879271" ignored="false" />
     <file path="/seeds.rb" changelist="bdfc6f69-e5d9-4957-a761-75a0f67ecd38" time="1366758809904" ignored="false" />
     <file path="/20130423225918_create_week1s.rb" changelist="bdfc6f69-e5d9-4957-a761-75a0f67ecd38" time="1366758442144" ignored="false" />
-    <file path="/week1s_controller.rb" changelist="bdfc6f69-e5d9-4957-a761-75a0f67ecd38" time="1366759062695" ignored="false" />
-    <file path="/Gemfile" changelist="bdfc6f69-e5d9-4957-a761-75a0f67ecd38" time="1366759348619" ignored="false" />
+    <file path="/week1s_controller.rb" changelist="bdfc6f69-e5d9-4957-a761-75a0f67ecd38" time="1366762775884" ignored="false" />
+    <file path="/Gemfile" changelist="bdfc6f69-e5d9-4957-a761-75a0f67ecd38" time="1366759806085" ignored="false" />
+    <file path="/Dummy.txt" changelist="bdfc6f69-e5d9-4957-a761-75a0f67ecd38" time="1366759931243" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="week1s_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="week1s_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/week1s_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="1" selection-end="54" vertical-scroll-proportion="0.0">
+            <state line="82" column="38" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.8667851">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="176" selection-end="214" vertical-scroll-proportion="0.29307282">
+            <state line="2" column="5" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,7 +68,7 @@
       <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="125" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,9 +106,9 @@
         <option value="$PROJECT_DIR$/db/migrate/20130423223902_create_week1s.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130423225918_create_week1s.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/controllers/week1s_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -555,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="125" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="11" selection-end="619" vertical-scroll-proportion="0.0">
@@ -569,16 +563,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/week1s_controller.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="1" selection-end="54" vertical-scroll-proportion="0.0">
+        <state line="2" column="5" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="176" selection-end="214" vertical-scroll-proportion="0.29307282">
+        <state line="26" column="0" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/week1s_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="38" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.8667851">
           <folding />
         </state>
       </provider>

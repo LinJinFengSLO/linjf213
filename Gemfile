@@ -1,4 +1,7 @@
-source 'https://rubygems.org'
+#source 'https://rubygems.org'
+
+# 淘宝源
+source 'http://taobao.org'
 
 gem 'rails', '3.2.13'
 
