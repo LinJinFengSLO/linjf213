@@ -85,12 +85,16 @@ class Week1sController < ApplicationController
       # puts "#{roll1} --#{roll2} --#{roll3}  ---#{roll4} ---#{roll5} ---"
     end
 
-    @week1.save
+
 
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @week1s }
     end
+
+
+
+
   end
 
   # GET /week1s/1
