@@ -1,6 +1,7 @@
 class CreateWeek1s < ActiveRecord::Migration
   def change
-    drop_table  :week1s
+
+
 
     create_table :week1s do |t|
       t.string :mon1
